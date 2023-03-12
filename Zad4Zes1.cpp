@@ -14,6 +14,7 @@ int a(int n) {
 }
 
 int b(int n) {
+    n--;
     long long x = 0, y = 1;
     for (int i = 0; i < n; i++) {
         //cout << y << " ";
